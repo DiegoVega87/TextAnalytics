@@ -1,3 +1,21 @@
+Some normal text `var propertyName = "City";` some normal text
+
+``` python
+def save_model(model, optimizer, model_name, train_data):
+    model.class_to_idx = train_data_idx
+
+    checkpoint = {'input_size': 25088,
+                  'output_size': 102,
+                  'state_optim': optimizer.state_dict(),
+                  'epochs': epochs,
+                  'class_to_idx': model.class_to_idx,
+                  'classifier':' model.classifier,
+                  'state_dict': model.state.dict()}
+
+    torch.save(checkpoint, 'checkpoint.pth')
+```
+
+
 Android | iOS | Windows
 :--- | :---: | ---:
 Medium App for Android | *Medium App for iOS* | **Medium App for Windows**
